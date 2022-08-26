@@ -12,12 +12,14 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnLoginFacebook;
+    private Button btnLoginNetflix;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         btnLoginFacebook = findViewById(R.id.btn_login_facebook);
+        btnLoginNetflix = findViewById(R.id.btn_login_netflix);
 
         btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,5 +29,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
     });
+
+        btnLoginNetflix.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this,"Botón pulsado",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this,LoginNetflixActivity.class);
+                startActivity(intent);
+            }
+        });
 }
 }

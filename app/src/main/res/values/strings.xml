@@ -6,9 +6,10 @@
     <string name="txt_need_help">Need Help?</string>
     <string name="txt_sign_facebook">Sign Up for facebook</string>
     <string name="txt_title_practices">Prácticas</string>
-    <string name="txt_login_facebook">Login with Facebook</string>
+    <string name="txt_login_facebook">Log In Facebook</string>
     <string name="txt_signin_netflix">Sign In</string>
     <string name="txt_remember">Remember me</string>
     <string name="txt_new">New to Netflix?</string>
     <string name="txt_sign_up">Sign Up Now.</string>
+    <string name="txt_login_with_facebook">Login with Facebook</string>
 </resources>

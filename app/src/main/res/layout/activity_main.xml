@@ -26,6 +26,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:backgroundTint="@color/buttons"
         android:text="@string/txt_login_facebook"/>
+
+    <Button
+        android:id="@+id/btn_login_netflix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttons"
+        android:text="Log In Netflix"/>
 
 </LinearLayout>

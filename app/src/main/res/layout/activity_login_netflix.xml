@@ -17,14 +17,15 @@
         android:layout_marginStart="@dimen/margin_default"
         android:layout_marginTop="@dimen/margin_logo"/>
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_signin_netflix"
         android:textColor="@color/white"
         android:textSize="@dimen/size_sign"
         android:textStyle="bold"
-        android:paddingRight="25dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="@dimen/margin_short"
         app:layout_constraintBottom_toTopOf="@id/cv_email"
         app:layout_constraintEnd_toEndOf="@id/gl_center_v"/>
 
@@ -122,8 +123,8 @@
 
     <ImageView
         android:id="@+id/fb_logo"
-        android:layout_width="30dp"
-        android:layout_height="33dp"
+        android:layout_width="@dimen/fb_logo_"
+        android:layout_height="@dimen/fb_logo_"
         android:src="@drawable/ic_facebook_icon"
         android:layout_marginTop="82dp"
         app:layout_constraintStart_toStartOf="@id/checkbox"
@@ -132,12 +133,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt_login_facebook"
+        android:text="@string/txt_login_with_facebook"
         android:textColor="@color/hint"
         app:layout_constraintStart_toEndOf="@id/fb_logo"
         app:layout_constraintTop_toTopOf="@id/fb_logo"
         app:layout_constraintBottom_toBottomOf="@id/fb_logo"
-        android:layout_marginLeft="@dimen/margin_default"/>
+        android:layout_marginLeft="@dimen/margin_short"/>
 
     <TextView
         android:id="@+id/new_netflix"
@@ -147,7 +148,7 @@
         android:textColor="@color/hint"
         android:textSize="@dimen/size_title"
         app:layout_constraintTop_toBottomOf="@id/gl_center_h2"
-        app:layout_constraintEnd_toStartOf=""
+        app:layout_constraintEnd_toStartOf="@id/new_netflix"
         android:paddingLeft="@dimen/margin_default"/>
 
     <TextView
@@ -159,7 +160,7 @@
         app:layout_constraintStart_toEndOf="@id/new_netflix"
         app:layout_constraintTop_toTopOf="@id/new_netflix"
         app:layout_constraintBottom_toBottomOf="@id/new_netflix"
-        android:layout_marginLeft="6dp"/>
+        android:layout_marginLeft="@dimen/margin_short"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/gl_center_v2"
