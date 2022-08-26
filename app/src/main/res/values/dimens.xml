@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="height_logo">45dp</dimen>
+    <dimen name="height_logo_n">45dp</dimen>
+    <dimen name="width_logo_n">145dp</dimen>
+    <dimen name="size_text">18sp</dimen>
+    <dimen name="size_title">20sp</dimen>
+    <dimen name="size_sign">40sp</dimen>
+    <dimen name="margin_2">15dp</dimen>
+    <dimen name="margin_logo">30dp</dimen>
+</resources>
