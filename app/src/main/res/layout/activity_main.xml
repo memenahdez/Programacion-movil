@@ -37,4 +37,19 @@
         android:backgroundTint="@color/buttons"
         android:text="Log In Netflix"/>
 
+    <Button
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttons"
+        android:text="Recycler view"/>
+
+    <Button
+        android:id="@+id/btn_list_Campus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttons"
+        android:text="List Campus"/>
 </LinearLayout>

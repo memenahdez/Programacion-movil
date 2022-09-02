@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnLoginFacebook;
     private Button btnLoginNetflix;
+    private Button btnRecyclerCampus;
+    private Button btnListCampus;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
         btnLoginFacebook = findViewById(R.id.btn_login_facebook);
         btnLoginNetflix = findViewById(R.id.btn_login_netflix);
+        btnRecyclerCampus = findViewById(R.id.btn_recyclerview);
+        btnListCampus = findViewById(R.id.btn_list_Campus);
 
         btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +39,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this,"Botón pulsado",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this,LoginNetflixActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnRecyclerCampus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Botón pulsado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, RecyclerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnListCampus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Botón pulsado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, ListCampusActivity.class);
                 startActivity(intent);
             }
         });

@@ -13,4 +13,5 @@
     <color name="secondary_netflix">#4A4A4A</color>
     <color name="hint">#9C9C9C</color>
     <color name="button_netflix">#d81f26</color>
+    <color name="black_50">#80000000</color>
 </resources>
