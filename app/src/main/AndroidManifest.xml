@@ -16,7 +16,6 @@
         <activity
             android:name=".ParcialActivity"
             android:exported="false" />
-
         <activity
             android:name=".ListCampusActivity"
             android:exported="false" />
@@ -39,6 +38,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
+        <activity android:name=".ParcialoneActivity" />
     </application>
 
 </manifest>

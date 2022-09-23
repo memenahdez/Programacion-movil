@@ -8,7 +8,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.anahuac.anahuac.models.ParcialoneActivity;
 
 public class ParcialActivity extends AppCompatActivity {
     private Button btnParcialone;
@@ -16,15 +15,15 @@ public class ParcialActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.primer_parcial);
+        setContentView(R.layout.primer_parcial_2);
 
         btnParcialone = findViewById(R.id.btn_parcial);
 
         btnParcialone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ParcialoneActivity.this, "Botón pulsado", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(ParcialoneActivity.this, ParcialoneActivity.class);
+                Toast.makeText(ParcialActivity.this, "Botón pulsado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(ParcialActivity.this, ParcialoneActivity.class);
                 startActivity(intent);
             }
         });}}

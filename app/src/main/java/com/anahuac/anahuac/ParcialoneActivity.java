@@ -1,4 +1,4 @@
-package com.anahuac.anahuac.models;
+package com.anahuac.anahuac;
 
 import android.os.Bundle;
 
@@ -14,4 +14,3 @@ public class ParcialoneActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.primer_parcial_2);
     }}
-}
