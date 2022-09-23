@@ -51,8 +51,6 @@
                 android:hint="@string/hint_email_or_phone_number"
                 android:textColorHint="@color/hint" />
 
-
-
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

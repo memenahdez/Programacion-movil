@@ -52,4 +52,12 @@
         android:layout_gravity="center"
         android:backgroundTint="@color/buttons"
         android:text="List Campus"/>
+
+    <Button
+        android:id="@+id/btn_primer_parcial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttons"
+        android:text="Parcial uno"/>
 </LinearLayout>

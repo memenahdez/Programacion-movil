@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btnLoginNetflix;
     private Button btnRecyclerCampus;
     private Button btnListCampus;
+    private Button btnParcial01;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btnLoginNetflix = findViewById(R.id.btn_login_netflix);
         btnRecyclerCampus = findViewById(R.id.btn_recyclerview);
         btnListCampus = findViewById(R.id.btn_list_Campus);
+        btnParcial01= findViewById(R.id.btn_primer_parcial);
 
         btnLoginFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +60,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "Botón pulsado", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(MainActivity.this, ListCampusActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnParcial01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Botón pulsado", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this, ParcialActivity.class);
                 startActivity(intent);
             }
         });
