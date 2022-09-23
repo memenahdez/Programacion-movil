@@ -15,5 +15,8 @@
     <color name="button_netflix">#d81f26</color>
     <color name="black_50">#80000000</color>
     <color name="Anahuac">#FF5722</color>
+    <color name="gradiant_2">#3280e4</color>
+    <color name="gradiant_1">#584dc4</color>
+    <color name="login_btn">#426bd7</color>
 
 </resources>
